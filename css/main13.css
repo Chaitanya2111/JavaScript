@@ -1,0 +1,9 @@
+body{
+    position: relative;
+}
+
+#list2{
+    position: absolute;
+    margin-left: 400px;
+}
+

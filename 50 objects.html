@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <script>
+         var a= {
+             fname : 'Chaitanaya',
+             lname : 'Raut',
+             age : 24,
+             email : 'Chaitanya@2137.net',
+             favmovies : ['sky','fly','shoot'],
+             salary : function(){
+                 return 25000;
+             },
+             fullname : function(){
+                 return this.fname + " " + this.lname;
+             }
+         }
+
+         console.log(a);
+
+document.write(a.fname);
+document.write(a.fullname());
+
+
+
+     </script>
+ </body>
+ </html>

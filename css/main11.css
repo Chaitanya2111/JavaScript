@@ -1,0 +1,15 @@
+#test{
+    width: 1000px;
+    height: 500px;
+    margin-top: 200px;
+    margin-top: 150px;
+    background-color: aquamarine;
+}
+
+#rest{
+    width: 1000px;
+    height: 500px;
+    margin-top: 200px;
+    margin-top: 150px;
+    background-color: rgb(255, 127, 234);
+}
